@@ -3,6 +3,6 @@ Conecte-se e organize  com os amigos. Crie grupos para jogar seus jogos favorito
 
 ✨ Tecnologias
 
-   React Native
-   Typescript
+   <p>React Native</p>
+   <p>Typescript</p>
    Expo
