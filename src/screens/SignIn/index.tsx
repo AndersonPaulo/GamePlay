@@ -1,10 +1,13 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import { StyleSheet, 
          Text,
          StatusBar,
          Image,
-          View } from 'react-native';
+          View 
+        }from 'react-native';
+
+import { ButtonIcon } from '../../components/Buttonicon';
 import {styles} from './styles';
 import IlustrationImg from '../../assets/illustration.png';
 
@@ -38,7 +41,10 @@ export  function SignIn() {
               favoritos com seus amigos
                             
           </Text>
-
+          <ButtonIcon 
+          title="Entrar com Discord"
+          activeOpacity={0.7}
+          />
         </View>
 
     </View>
